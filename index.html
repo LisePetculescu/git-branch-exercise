@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header id="top">
       <h1>Git branch exercise</h1>
-      <nav>
+      <nav id="nav">
         <a href="#HTML">HTML</a>
         <a href="#CSS">CSS</a>
         <a href="#JavaScript">JS</a>
@@ -19,9 +19,12 @@
     </header>
     <section id="HTML">
       <h2>HTML</h2>
+      <a href="#top">To Top</a>
     </section>
     <section id="CSS">
       <h2>CSS</h2>
+
+      <a href="#top">To Top</a>
     </section>
     <section id="JavaScript">
       <h2>JavaScript:</h2>
@@ -32,10 +35,14 @@
         <li>Return</li>
         <li>Array</li>
       </ol>
+      <a href="#top">To Top</a>
     </section>
     <section id="Tools">
       <h2>Tools</h2>
+      <a href="#top">To Top</a>
     </section>
+
+    <button onclick="topFunction()" id="myBtn">Scroll to top</button>
 
     <script src="script.js"></script>
   </body>
